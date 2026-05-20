@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="-apple-system, sans-serif">
+  <!-- 背景 -->
+  <rect width="1000" height="600" fill="#f7f9fb"/>
+
+  <!-- 左側ラベル -->
+  <text x="200" y="60" text-anchor="middle" fill="#888" font-size="14" font-weight="bold">BEFORE</text>
+  <text x="200" y="80" text-anchor="middle" fill="#222" font-size="13">バラバラの情報源</text>
+
+  <!-- 散らばった情報源 -->
+  <g transform="rotate(-3 130 160)">
+    <rect x="50" y="120" width="160" height="80" fill="#fff" stroke="#ccc" rx="4"/>
+    <text x="130" y="155" text-anchor="middle" fill="#888" font-size="11">📊</text>
+    <text x="130" y="180" text-anchor="middle" fill="#222" font-size="14" font-weight="bold">補助金資料</text>
+  </g>
+
+  <g transform="rotate(2 230 270)">
+    <rect x="150" y="230" width="160" height="80" fill="#fff" stroke="#ccc" rx="4"/>
+    <text x="230" y="265" text-anchor="middle" fill="#888" font-size="11">📄</text>
+    <text x="230" y="290" text-anchor="middle" fill="#222" font-size="14" font-weight="bold">給与一覧</text>
+  </g>
+
+  <g transform="rotate(-2 130 380)">
+    <rect x="50" y="340" width="160" height="80" fill="#fff" stroke="#ccc" rx="4"/>
+    <text x="130" y="375" text-anchor="middle" fill="#888" font-size="11">📋</text>
+    <text x="130" y="400" text-anchor="middle" fill="#222" font-size="14" font-weight="bold">人員配置表</text>
+  </g>
+
+  <g transform="rotate(4 240 470)">
+    <rect x="160" y="430" width="160" height="80" fill="#fff" stroke="#ccc" rx="4"/>
+    <text x="240" y="465" text-anchor="middle" fill="#888" font-size="11">📁</text>
+    <text x="240" y="490" text-anchor="middle" fill="#222" font-size="14" font-weight="bold">処遇改善資料</text>
+  </g>
+
+  <!-- 矢印 -->
+  <g transform="translate(380, 280)">
+    <path d="M 0 30 L 110 30 L 110 0 L 180 50 L 110 100 L 110 70 L 0 70 Z" fill="#ffd61a"/>
+    <text x="90" y="58" text-anchor="middle" fill="#7a5500" font-size="14" font-weight="bold">統合</text>
+  </g>
+
+  <!-- 右側ラベル -->
+  <text x="800" y="60" text-anchor="middle" fill="#5b8a72" font-size="14" font-weight="bold">AFTER</text>
+  <text x="800" y="80" text-anchor="middle" fill="#222" font-size="13">ChildcareOS で1つに</text>
+
+  <!-- 統合先 -->
+  <g>
+    <rect x="610" y="120" width="380" height="380" fill="#fff" stroke="#5b8a72" stroke-width="2" rx="12"/>
+    <text x="800" y="170" text-anchor="middle" fill="#5b8a72" font-size="22" font-weight="bold">ChildcareOS</text>
+    <text x="800" y="200" text-anchor="middle" fill="#888" font-size="13">人と金、ひとつの画面に</text>
+
+    <!-- 機能カード -->
+    <rect x="640" y="240" width="100" height="70" fill="#f7f9fb" rx="6"/>
+    <text x="690" y="270" text-anchor="middle" font-size="11" fill="#888">機能 1</text>
+    <text x="690" y="290" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">職員配置</text>
+
+    <rect x="750" y="240" width="100" height="70" fill="#f7f9fb" rx="6"/>
+    <text x="800" y="270" text-anchor="middle" font-size="11" fill="#888">機能 2</text>
+    <text x="800" y="290" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">賃金判断</text>
+
+    <rect x="860" y="240" width="100" height="70" fill="#f7f9fb" rx="6"/>
+    <text x="910" y="270" text-anchor="middle" font-size="11" fill="#888">機能 3</text>
+    <text x="910" y="290" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">管理会計</text>
+
+    <!-- Ifシミュ -->
+    <rect x="640" y="340" width="320" height="80" fill="#fffce5" rx="6"/>
+    <text x="800" y="370" text-anchor="middle" font-size="13" fill="#7a5500" font-weight="bold">Ifシミュレーション</text>
+    <text x="800" y="395" text-anchor="middle" font-size="11" fill="#7a5500">「もし〜したら」を即座に試算</text>
+
+    <text x="800" y="465" text-anchor="middle" font-size="14" fill="#222" font-weight="bold">毎月15分で経営判断が完了</text>
+  </g>
+</svg>

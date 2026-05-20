@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="-apple-system, sans-serif">
+  <rect width="600" height="400" fill="#fff" stroke="#e5e5e5" rx="8"/>
+
+  <!-- ヘッダー -->
+  <text x="30" y="40" font-size="18" font-weight="bold" fill="#222">職員配置</text>
+  <text x="30" y="62" font-size="12" fill="#888">時間帯別の必要人員と配置済み人員</text>
+
+  <!-- グラフ -->
+  <g transform="translate(50, 100)">
+    <line x1="0" y1="220" x2="500" y2="220" stroke="#ddd"/>
+    <line x1="0" y1="20" x2="0" y2="220" stroke="#ddd"/>
+
+    <g fill="#5b8a72">
+      <rect x="20" y="100" width="40" height="120"/>
+      <rect x="80" y="80" width="40" height="140"/>
+      <rect x="140" y="50" width="40" height="170"/>
+      <rect x="200" y="30" width="40" height="190"/>
+      <rect x="260" y="60" width="40" height="160"/>
+      <rect x="320" y="80" width="40" height="140"/>
+      <rect x="380" y="120" width="40" height="100"/>
+      <rect x="440" y="160" width="40" height="60"/>
+    </g>
+
+    <g fill="#ffd61a">
+      <rect x="140" y="30" width="40" height="20"/>
+      <rect x="200" y="10" width="40" height="20"/>
+    </g>
+
+    <g fill="#888" font-size="10">
+      <text x="40" y="240" text-anchor="middle">8時</text>
+      <text x="100" y="240" text-anchor="middle">9時</text>
+      <text x="160" y="240" text-anchor="middle">10時</text>
+      <text x="220" y="240" text-anchor="middle">11時</text>
+      <text x="280" y="240" text-anchor="middle">12時</text>
+      <text x="340" y="240" text-anchor="middle">13時</text>
+      <text x="400" y="240" text-anchor="middle">14時</text>
+      <text x="460" y="240" text-anchor="middle">15時</text>
+    </g>
+  </g>
+
+  <!-- 注意 -->
+  <g transform="translate(30, 360)">
+    <rect width="540" height="30" fill="#fffce5" rx="4"/>
+    <text x="20" y="20" font-size="12" fill="#7a5500">⚠ 10-11時に2-3人不足。短時間パートで補填可能</text>
+  </g>
+</svg>

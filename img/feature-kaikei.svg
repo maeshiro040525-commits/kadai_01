@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="-apple-system, sans-serif">
+  <rect width="600" height="400" fill="#fff" stroke="#e5e5e5" rx="8"/>
+
+  <!-- ヘッダー -->
+  <text x="30" y="40" font-size="18" font-weight="bold" fill="#222">管理会計</text>
+  <text x="30" y="62" font-size="12" fill="#888">補助金 vs 人件費 / 予算進捗</text>
+
+  <!-- 進捗バー1 -->
+  <g transform="translate(30, 100)">
+    <text font-size="13" fill="#222" font-weight="bold">人件費 ÷ 補助金</text>
+    <text x="540" font-size="14" fill="#5b8a72" text-anchor="end" font-weight="bold">82%</text>
+    <rect y="20" width="540" height="22" fill="#eee" rx="4"/>
+    <rect y="20" width="442" height="22" fill="#5b8a72" rx="4"/>
+  </g>
+
+  <!-- 進捗バー2 -->
+  <g transform="translate(30, 180)">
+    <text font-size="13" fill="#222" font-weight="bold">予算進捗（年度）</text>
+    <text x="540" font-size="14" fill="#222" text-anchor="end" font-weight="bold">62%</text>
+    <rect y="20" width="540" height="22" fill="#eee" rx="4"/>
+    <rect y="20" width="335" height="22" fill="#222" rx="4"/>
+  </g>
+
+  <!-- 余力 -->
+  <g transform="translate(30, 260)">
+    <rect width="540" height="100" fill="#f7f9fb" rx="8"/>
+    <text x="20" y="35" font-size="13" fill="#888">今月の余力</text>
+    <text x="20" y="75" font-size="32" font-weight="bold" fill="#5b8a72">+ ¥1,240,000</text>
+    <text x="520" y="75" font-size="11" fill="#888" text-anchor="end">前月比 +¥80,000</text>
+  </g>
+</svg>
